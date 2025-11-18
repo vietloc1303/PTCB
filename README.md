@@ -25,29 +25,34 @@ Dự án này tập trung vào việc tự động hóa và trực quan hóa cá
 
 * **Phân tích & Trực quan:** Microsoft Power BI
 * **Ngôn ngữ:** DAX, Power Query (M)
-* **Nguồn Dữ liệu:** 
-
+* **Nguồn Dữ liệu:** Dữ liệu Báo cáo Tài chính được tải về từ website SSI
 ## 🧹 Tóm tắt Quy trình Xử lý Dữ liệu
 
-1.  **Làm sạch Dữ liệu:** Sử dụng Power Query để tạo pipeline làm sạch dữ liệu, sửa cấu trúc dữ liệu. Tạo ra các bảng Dim và Fact để tiện cho việc phân tích.
+1.  **Làm sạch Dữ liệu:**
+* Sử dụng Power Query để tạo pipeline làm sạch dữ liệu, xử lý các lỗi nhập liệu, và sửa cấu trúc dữ liệu thô (thường là định dạng báo cáo) thành định dạng phân tích (dạng cột).
+* Tạo các bảng Dimension (Dim) và Fact (chứa giá trị tài chính) để tiện cho việc phân tích và mô hình hóa.
 2.  **Mô hình hóa Dữ liệu:** Thiết lập các mối quan hệ giữa các bảng.
 3.  **Tính toán DAX:** Xây dựng các chỉ số như `CARG`, `Cấu trúc tài sản`, và các tính toán time-intelligence.
 
-## 💡 Kết quả & Phân tích Chính
+## 💡 Kết quả 
+> Báo cáo này giúp nhà phân tích nhìn nhận rõ ràng về tình hình tài chính của doanh nghiệp, đồng thời cung cấp bộ lọc dựa trên F-Score (Chỉ số Piotroski) để nhanh chóng đánh giá chất lượng tài chính của công ty.
+### Trang Tổng Quan & Chi tiết Tình hình tài chính
 
-> Báo cáo này giúp nhà phân tích nhìn nhận rõ ràng về tình hình tài chính của doanh nghiệp.
+![Tình hình tài chính](images/images/T%C3%ACnh%20h%C3%ACnh%20t%C3%A0i%20ch%C3%ADnh%20-%20T%E1%BB%95ng%20quan.png)
+![Tình hình tài chính](images/images/T%C3%ACnh%20h%C3%ACnh%20t%C3%A0i%20ch%C3%ADnh%20-%20Chi%20ti%E1%BA%BFt.png)
 
-### Trang Tổng Quan (Dashboard Overview)
+### Trang Tổng Quan & Chi tiết Kết quả hoạt động
+![Kết quả hoạt động](images/images/K%E1%BA%BFt%20qu%E1%BA%A3%20ho%E1%BA%A1t%20%C4%91%E1%BB%99ng%20-%20T%E1%BB%95ng%20quan.png)
+![Kết quả hoạt động](images/images/K%E1%BA%BFt%20qu%E1%BA%A3%20ho%E1%BA%A1t%20%C4%91%E1%BB%99ng%20-%20Chi%20ti%E1%BA%BFt.png)
 
-(images/dashboard_tong_quan.png)
+### Trang Tổng Quan & Chi tiết Lưu chuyển tiền tệ
 
-### Các Phát hiện Chủ chốt (Key Findings)
-* **Phát hiện 1:** [Ví dụ: Chi phí Marketing không tương xứng với doanh số ở khu vực X].
-* **Phát hiện 2:** [Ví dụ: Sản phẩm A có biên lợi nhuận cao nhất nhưng lại bị tồn kho nhiều nhất].
+![Lưu chuyển tiền tệ](images/images/L%C6%B0u%20chuy%E1%BB%83n%20ti%E1%BB%81n%20t%E1%BB%87%20-%20T%E1%BB%95ng%20quan.png)
+![Lưu chuyển tiền tệ](images/images/L%C6%B0u%20chuy%E1%BB%83n%20ti%E1%BB%81n%20t%E1%BB%87%20-%20Chi%20ti%E1%BA%BFt.png)
 
----
+### Trang Bộ lọc công ty dựa trên F-Score
 
-## 🔗 Xem Báo Cáo Trực Tiếp (Tùy chọn)
+![Bộ lọc công ty](images/images/B%E1%BB%99%20l%E1%BB%8Dc%20c%C3%B4ng%20ty.png)
 
-Nếu bạn đã publish lên Power BI Service:
-[Xem báo cáo trên Power BI Service](Link_Embed_hoac_Web_cua_ban)
+## LƯU Ý
+Báo cáo này có thể tái sử dụng và cập nhật khi tải về báo cáo tài chính của các công ty cần phân tích từ trang web SSI
