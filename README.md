@@ -55,4 +55,5 @@ Dự án này tập trung vào việc tự động hóa và trực quan hóa cá
 ![Bộ lọc công ty](images/images/B%E1%BB%99%20l%E1%BB%8Dc%20c%C3%B4ng%20ty.png)
 
 ## LƯU Ý
-Báo cáo này có thể tái sử dụng và cập nhật khi tải về báo cáo tài chính của các công ty cần phân tích từ trang web SSI
+Báo cáo này có thể tái sử dụng và cập nhật khi tải về báo cáo tài chính của các công ty cần phân tích từ trang web SSI theo các folder như trong thư mục Data
+
