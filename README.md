@@ -4,6 +4,8 @@
 [![DAX](https://img.shields.io/badge/DAX-2A3C4F?style=for-the-badge&logo=power-bi&logoColor=white)](link-neu-co)
 
 ---
+## LƯU Ý
+Báo cáo này có thể tái sử dụng và cập nhật khi tải về báo cáo tài chính của các công ty phi tài chính cần phân tích từ trang web SSI (https://iboard.ssi.com.vn/analysis/fundamental-analysis) và lưu theo địa chỉ "D:\Thực hành\Bảng cân đối kế toán" ; "D:\Thực hành\Kết quả hoạt động" ; "D:\Thực hành\Lưu chuyển tiền tệ"
 
 ## Mục tiêu
 Dự án này tập trung vào việc tự động hóa và trực quan hóa các chỉ số tài chính để đánh giá sức khỏe doanh nghiệp và so sánh hiệu suất giữa các công ty.
@@ -25,7 +27,10 @@ Dự án này tập trung vào việc tự động hóa và trực quan hóa cá
 
 * **Phân tích & Trực quan:** Microsoft Power BI
 * **Ngôn ngữ:** DAX, Power Query (M)
-* **Nguồn Dữ liệu:** Dữ liệu Báo cáo Tài chính được tải về từ website SSI
+* **Nguồn Dữ liệu:** Dữ liệu Báo cáo Tài chính được tải về từ website SSI 
+
+  <img width="1865" height="702" alt="image" src="https://github.com/user-attachments/assets/346c331b-5059-4130-8130-8088ba560dd2" />
+
 ## 🧹 Tóm tắt Quy trình Xử lý Dữ liệu
 
 1.  **Làm sạch Dữ liệu:**
@@ -54,6 +59,5 @@ Dự án này tập trung vào việc tự động hóa và trực quan hóa cá
 
 ![Bộ lọc công ty](images/images/B%E1%BB%99%20l%E1%BB%8Dc%20c%C3%B4ng%20ty.png)
 
-## LƯU Ý
-Báo cáo này có thể tái sử dụng và cập nhật khi tải về báo cáo tài chính của các công ty phi tài chính cần phân tích từ trang web SSI và lưu theo địa chỉ "D:\Thực hành\Bảng cân đối kế toán" ; "D:\Thực hành\Kết quả hoạt động" ; "D:\Thực hành\Lưu chuyển tiền tệ"
+
 
