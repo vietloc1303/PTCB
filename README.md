@@ -5,13 +5,18 @@
 
 ---
 ## LƯU Ý
-Báo cáo này có thể tái sử dụng và cập nhật khi tải về báo cáo tài chính của các công ty phi tài chính cần phân tích từ trang web SSI (https://iboard.ssi.com.vn/analysis/fundamental-analysis) và lưu theo địa chỉ "D:\Thực hành\Bảng cân đối kế toán" ; "D:\Thực hành\Kết quả hoạt động" ; "D:\Thực hành\Lưu chuyển tiền tệ"
+Báo cáo này có thể tái sử dụng và cập nhật khi tải về báo cáo tài chính của các công ty phi tài chính cần phân tích từ trang web SSI (https://iboard.ssi.com.vn/analysis/fundamental-analysis) và lưu theo địa chỉ "D:\Thực hành\Bảng cân đối kế toán" ; "D:\Thực hành\Kết quả hoạt động" ; "D:\Thực hành\Lưu chuyển tiền tệ", sau đó refresh báo cáo, không cần load các file data mới vào PBI.
+
+<img width="600" height="200" alt="image" src="https://github.com/user-attachments/assets/b226e024-63d8-4acf-935a-6bf74e3af11b" />
+<img width="600" height="200" alt="image" src="https://github.com/user-attachments/assets/2e49afb7-3159-48a1-8fa0-c4f86418871d" />
+
+
 
 ## Mục tiêu
 Dự án này tập trung vào việc tự động hóa và trực quan hóa các chỉ số tài chính để đánh giá sức khỏe doanh nghiệp và so sánh hiệu suất giữa các công ty.
 ### 1. Tự động Phân tích Tình hình Tài chính 
 **Mục tiêu:** Tự động hóa việc tính toán, trực quan hóa và theo dõi cơ cấu tài sản, nguồn vốn, doanh thu và các chỉ số tài chính quan trọng nhằm đánh giá khả năng thanh toán, hiệu quả sử dụng tài sản và cấu trúc vốn của doanh nghiệp.
-#### 📈 Các Chỉ số Chính trong Báo cáo
+#### Các Chỉ số Chính trong Báo cáo
 * **Khả năng Thanh toán (Liquidity):**
     * Tỷ lệ Thanh toán Hiện hành (Current Ratio)
     * Tỷ lệ Thanh toán Nhanh (Quick Ratio / Acid-test Ratio)
@@ -23,7 +28,7 @@ Dự án này tập trung vào việc tự động hóa và trực quan hóa cá
 * **Cấu trúc Vốn (Leverage):**
     * Tỷ lệ Nợ trên Tổng Tài sản (Debt to Asset Ratio)
     * Tỷ lệ Nợ trên Vốn chủ sở hữu (Debt to Equity Ratio)
-## 🛠️ Bộ Công cụ Sử dụng
+## Bộ Công cụ Sử dụng
 
 * **Phân tích & Trực quan:** Microsoft Power BI
 * **Ngôn ngữ:** DAX, Power Query (M)
@@ -31,7 +36,7 @@ Dự án này tập trung vào việc tự động hóa và trực quan hóa cá
 
   <img width="1865" height="702" alt="image" src="https://github.com/user-attachments/assets/346c331b-5059-4130-8130-8088ba560dd2" />
 
-## 🧹 Tóm tắt Quy trình Xử lý Dữ liệu
+## Tóm tắt Quy trình Xử lý Dữ liệu
 
 1.  **Làm sạch Dữ liệu:**
 * Sử dụng Power Query để tạo pipeline làm sạch dữ liệu, xử lý các lỗi nhập liệu, và sửa cấu trúc dữ liệu thô (thường là định dạng báo cáo) thành định dạng phân tích (dạng cột).
@@ -39,7 +44,7 @@ Dự án này tập trung vào việc tự động hóa và trực quan hóa cá
 2.  **Mô hình hóa Dữ liệu:** Thiết lập các mối quan hệ giữa các bảng.
 3.  **Tính toán DAX:** Xây dựng các chỉ số như `CARG`, `Cấu trúc tài sản`, và các tính toán time-intelligence.
 
-## 💡 Kết quả 
+## Kết quả 
 > Báo cáo này giúp nhà phân tích nhìn nhận rõ ràng về tình hình tài chính của doanh nghiệp, đồng thời cung cấp bộ lọc dựa trên F-Score (Chỉ số Piotroski) để nhanh chóng đánh giá chất lượng tài chính của công ty.
 ### Trang Tổng Quan & Chi tiết Tình hình tài chính
 
